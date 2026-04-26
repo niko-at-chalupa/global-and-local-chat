@@ -104,3 +104,4 @@ class GlobalAndLocalChat(Plugin):
             message = f"[{self.local_color}{self.local_label}{cf.RESET}] <{event.player.name}> {event.message}"
             for recipient in recipients:
                 recipient.send_message(message)
+            event.player.send_message(message)
