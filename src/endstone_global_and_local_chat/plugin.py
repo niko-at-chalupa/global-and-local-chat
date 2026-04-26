@@ -32,7 +32,7 @@ class GlobalAndLocalChat(Plugin):
         if message[0] == "!":
             message = message[1:]
             message = f"[{cf.GREEN}GLOBAL{cf.RESET}] <{event.player.name}> {message}"
-            if message == "":
+            if event.message == "!":
                 return
             self.server.broadcast_message(message)
         else:
