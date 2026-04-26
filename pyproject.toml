@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "global-and-local-chat"
+version = "0.1.0"
+description = "Implements both global and local chat systems"
+authors = [
+    {name = "niko-at-chalupa"},
+    {name = "nikitalegend"}
+]
+dependencies = [
+    "endstone",
+]
+
+[project.entry-points."endstone"]
+global_and_local_chat = "endstone_global_and_local_chat:GlobalAndLocalChat"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/endstone_global_and_local_chat"]
