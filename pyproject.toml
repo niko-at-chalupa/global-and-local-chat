@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "global-and-local-chat"
+name = "endstone-global-and-local-chat"
 version = "0.1.0"
 description = "Implements both global and local chat systems"
 authors = [
