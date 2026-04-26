@@ -34,7 +34,7 @@ class GlobalAndLocalChat(Plugin):
             message = f"[{cf.GREEN}GLOBAL{cf.RESET}] <{event.player.name}> {message}"
             if event.message == "!":
                 return
-            self.server.broadcast_message(message)
+            self.server.broadcast_message(message.strip())
         else:
             recipients = self.get_players_in_radius(event.player, 100)
             if len(recipients) == 0:
