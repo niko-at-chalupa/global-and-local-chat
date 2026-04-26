@@ -1,4 +1,4 @@
-# Global and Local Chat
+# <code><img src="images/icon.png" height="50em" /></code> Global and Local Chat
 
 Implements global and local chat systems into Minecraft: Bedrock edition
 
