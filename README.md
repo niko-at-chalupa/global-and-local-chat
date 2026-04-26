@@ -10,7 +10,8 @@ Implements global and local chat systems into Minecraft: Bedrock edition
 
 ## Usage
 
-- Type normally to chat locally: `hello` (100 block radius)
+- Type normally to chat locally: `hello` (100 block radius by default)
 - Prefix with `!` for global chat: `!hello` (all players)
+- Change the config in `plugins/global_and_local_chat/config.yml` <3
 
 Compatible with [Chatrelay](https://github.com/niko-at-chalupa/endstone-chatrelay)
